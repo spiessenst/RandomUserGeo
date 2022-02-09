@@ -149,6 +149,7 @@ table {
   justify-content: space-between;
   gap: 10px;
   min-width: 750px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .card .imgholder {
   width: 50%;
