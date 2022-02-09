@@ -21,7 +21,7 @@ async function getData() {
     document.getElementById("name").innerHTML = `${fname} ${lname}`;
     document.getElementById(
       "email"
-    ).innerHTML = `<a href="${email}">${email}</a>`;
+    ).innerHTML = `<a href="mailto:${email}">${email}</a>`;
     document.getElementById(
       "adress"
     ).innerHTML = `${street} ${nr}, ${city} ${country}`;
