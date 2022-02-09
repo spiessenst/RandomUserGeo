@@ -1,0 +1,61 @@
+@use "./base/reset";
+@use "./base/variables" as *;
+@use "./base/fonts" as *;
+
+.card {
+  background-color: white;
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  min-width: 750px;
+
+  .imgholder {
+    width: 50%;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+  .info {
+    width: 50%;
+    font-family: "Space Mono";
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    p {
+      padding-bottom: 20px;
+    }
+    .name {
+      font-size: 25px;
+      font-weight: 800;
+    }
+  }
+  .map {
+    height: 65%;
+  }
+}
+.buttondiv {
+  display: flex;
+  justify-content: center;
+  button {
+    margin-top: 50px;
+    border: 0;
+    padding: 20px;
+    font-family: "Space Mono";
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: darkslategrey;
+    background-color: bisque;
+  }
+}

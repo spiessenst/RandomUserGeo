@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RANDOM_ID</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.25.0/axios.min.js"
+      integrity="sha512-/Q6t3CASm04EliI1QyIDAA/nDo9R8FQ/BULoUFyN4n/BDdyIxeH7u++Z+eobdmr11gG5D/6nPFyDlnisDwhpYA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAd4N9sI0o9EBH_tKmR_PSpupKE6SDpom8&callback=initMap&v=weekly"
+      async
+    ></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <script src="./js/index.js"></script>
+  </head>
+  <body onload="getData()">
+    <section class="card">
+      <div class="imgholder">
+        <img id="profile" src="" alt="" />
+      </div>
+      <div class="info">
+        <p class="name" id="name"></p>
+        <p class="email" id="email"></p>
+        <p class="adress" id="adress"></p>
+        <div class="map" id="map"></div>
+      </div>
+    </section>
+    <div class="buttondiv">
+      <button onclick="getData()">New User</button>
+    </div>
+  </body>
+</html>
