@@ -177,6 +177,10 @@ table {
 .card .map {
   height: 65%;
 }
+.card .map img[src*=jpg] {
+  border-radius: 50%;
+  border: 3px solid lightgreen !important;
+}
 
 .buttondiv {
   display: flex;

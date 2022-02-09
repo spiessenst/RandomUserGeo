@@ -42,6 +42,10 @@
   }
   .map {
     height: 65%;
+    img[src*="jpg"] {
+      border-radius: 50%;
+      border: 3px solid lightgreen !important;
+    }
   }
 }
 .buttondiv {
